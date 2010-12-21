@@ -1,2 +1,2 @@
-./genlogs.sh 1 | awk '{print $10 " "  $11}'
+./genlogs.sh 1 | awk '{print $10 " "  $11 " " $12}'| sort | uniq
 
